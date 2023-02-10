@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tarota_cards",
+  "info": {
+    "singularName": "tarota-card",
+    "pluralName": "tarota-cards",
+    "displayName": "Tarota Card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "number": {
+      "type": "integer"
+    },
+    "meaning_up": {
+      "type": "text"
+    },
+    "meaning_rev": {
+      "type": "text"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "suit": {
+      "type": "string"
+    }
+  }
+}
